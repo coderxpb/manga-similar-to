@@ -20,3 +20,21 @@
 	font-size: 3rem;
 	color: #ffffff;
 }
+
+.recommendations-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.manga-card{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	
+	font-weight: 600;
+	color: rgb(255, 251, 250);
+	p{
+		padding: 4px;
+	}
+}
